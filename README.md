@@ -1,60 +1,28 @@
-# [Start Bootstrap - Blog Home](https://startbootstrap.com/template-overviews/blog-home/)
+mainly this project is native php project .. 
+if you need to check the website you have to create database with same names  of tables and fill if from app forms 
 
-[Blog Home](http://startbootstrap.com/template-overviews/blog-home/) is a basic blog homepage HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+MAIN PAGES 
+1-there is main page of courses and you can see all courses and comment on it and can access admin by login can be seen in sidebar 
+2-there  is page of admin and all dash board features is working and accessing database from php my admin .... 
+3-registeration form is working and reset password is sending email to your mail after check it using php mailer 
+4-login page and reset on it if you forget pass 
+ 
+DASH BOARD features 
+1-you can see all posts in courses page .. add post ,edit post, delete post, draft post as cannot be seen of courses page 
+2-categories page .. can see all categories on  site and add new one if needed ,edit ,delete 
+3- comments page .. can approve comment or not  .. see all details of comment from database 
+4- profile page .. you see admin information and you can edit it 
+5- users you can see all users  information . add ,edit delete ,change role by click on role name 
+6-users online above in  head bar .. give you number of online users use the site right now 
 
-## Preview
+COURSES PAGE features 
+1-can see all courses 
+2-add comment after click on specific post and go to its page 
+3-see courses grouped by auther name by click on his name ..
+4-see courses grouped by category name  by click on name 
+5-search in side bar by post tag from database
 
-[![Blog Home Preview](https://startbootstrap.com/assets/img/templates/blog-home.jpg)](https://blackrockdigital.github.io/startbootstrap-blog-home/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-blog-home/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-blog-home/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-blog-home.svg)](https://www.npmjs.com/package/startbootstrap-blog-home)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-blog-home.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-blog-home)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-blog-home/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-blog-home)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-blog-home/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-blog-home?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/blog-home/)
-* Install via npm: `npm i startbootstrap-blog-home`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-blog-home.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-blog-home)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-blog-home/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/blog-home/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/gh-pages/LICENSE) license.
+every feature have its php pages .. php pages of courses pages in the main folder of cms there is about 4 php pages 
+another php pages in admin/demo folder 
+there is folder for includes to  courses  pages in cms main folder and there is another  for admin pages on admin folder  
