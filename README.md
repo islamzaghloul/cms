@@ -1,28 +1,24 @@
-mainly this project is native php project .. 
-if you need to check the website you have to create database with same names  of tables and fill if from app forms 
+This project is primarily built using native PHP. To check the website, you need to create a database with the same table names and populate it using the app's forms.
 
-MAIN PAGES 
-1-there is main page of courses and you can see all courses and comment on it and can access admin by login can be seen in sidebar 
-2-there  is page of admin and all dash board features is working and accessing database from php my admin .... 
-3-registeration form is working and reset password is sending email to your mail after check it using php mailer 
-4-login page and reset on it if you forget pass 
- 
-DASH BOARD features 
-1-you can see all posts in courses page .. add post ,edit post, delete post, draft post as cannot be seen of courses page 
-2-categories page .. can see all categories on  site and add new one if needed ,edit ,delete 
-3- comments page .. can approve comment or not  .. see all details of comment from database 
-4- profile page .. you see admin information and you can edit it 
-5- users you can see all users  information . add ,edit delete ,change role by click on role name 
-6-users online above in  head bar .. give you number of online users use the site right now 
+### MAIN PAGES:
+1. **Courses Page**: The main page displays all courses, allowing users to view and comment on them. Admin login is available via the sidebar.
+2. **Admin Page**: The admin dashboard is fully functional, with access to the database via phpMyAdmin.
+3. **Registration Form**: The registration form works, and password reset emails are sent using PHP Mailer.
+4. **Login Page**: Users can log in and reset their passwords if needed.
 
-COURSES PAGE features 
-1-can see all courses 
-2-add comment after click on specific post and go to its page 
-3-see courses grouped by auther name by click on his name ..
-4-see courses grouped by category name  by click on name 
-5-search in side bar by post tag from database
+### DASHBOARD FEATURES:
+1. **Courses Management**: View all posts on the courses page, add, edit, delete, or mark posts as drafts so they are hidden from the courses page.
+2. **Categories Page**: View all categories, and add, edit, or delete categories as needed.
+3. **Comments Page**: Approve or disapprove comments and view their details from the database.
+4. **Profile Page**: View and edit admin profile information.
+5. **Users Page**: View all user details, and add, edit, delete, or change roles by clicking on the role name.
+6. **Online Users**: The number of active online users is displayed in the header bar.
 
+### COURSES PAGE FEATURES:
+1. View all available courses.
+2. Add comments on specific courses after clicking on a post to visit its page.
+3. View courses grouped by the author's name by clicking on their name.
+4. View courses grouped by category by clicking on the category name.
+5. Search for courses by post tag using the sidebar.
 
-every feature have its php pages .. php pages of courses pages in the main folder of cms there is about 4 php pages 
-another php pages in admin/demo folder 
-there is folder for includes to  courses  pages in cms main folder and there is another  for admin pages on admin folder  
+Each feature has its own PHP page. The PHP pages for the courses are located in the main CMS folder, with approximately four PHP pages. Additional PHP pages can be found in the **admin/demo** folder, with include folders for the courses in the CMS main folder and the admin pages in the admin folder.
